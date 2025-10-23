@@ -1,1 +1,1 @@
-# Trell-no - A Trello Clone
+# Trell-no: A Trello Clone
