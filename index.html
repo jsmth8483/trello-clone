@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trell-no</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="module" src="/js/main.js" defer></script>
+    </head>
+    <body id="app">
+        <nav class="navbar">
+            <div class="board-indicator">
+                <h1 class="board-title">Board Title</h1>
+                <div class="board-picker">
+                    <button class="board-picker-btn btn-main">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="board-picker-pane">
+                        <h2>Select a board</h2>
+                        <!-- Add in an x button to close pane -->
+                        <div class="board-list">
+                            <span data-value="board 1">Board 1</span>
+                            <span data-value="board 2">Board 3</span>
+                            <span data-value="board 3">Board 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="account-login-signup">
+                <a href="/login" class="login-btn btn-main"
+                    ><i class="fa-solid fa-user"></i><span>Login</span></a
+                >
+                <a href="/signup" class="signup-btn btn-main"
+                    ><i class="fa-solid fa-user-plus"></i
+                    ><span>Sign Up</span></a
+                >
+            </div>
+        </nav>
+        <main>
+            <div class="lists">
+                <div class="list-column">
+                    <button class="add-list-btn">
+                        <!-- Add + icon for adding new list-->
+                        <span>+ Add another list</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
